@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AarjavBank</string>
+    <string name="users">USERS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_of_customer">NAME OF CUSTOMER</string>
+    <string name="email">EMAIL</string>
+    <string name="current_balance">CURRENT BALANCE</string>
+    <string name="list_iteam">List Iteam</string>
+    <string name="aarjav_jain">AARJAV JAIN</string>
+</resources>

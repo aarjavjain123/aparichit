@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="WELCOME"
+      android:textSize="50sp"
+      android:layout_marginLeft="50dp"
+      android:paddingTop="40dp"
+      android:textColor="@color/colorPrimary"/>
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:id="@+id/imgBank"
+       android:src="@drawable/download"/>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_below="@id/imgBank"
+      android:paddingTop="20dp"
+      android:text="@string/users"
+       android:id="@+id/txtUSERS"
+      android:textColor="@color/colorPrimaryDark"
+      android:textSize="25sp"
+      android:layout_marginLeft="100dp"/>
+
+
+
+</RelativeLayout>

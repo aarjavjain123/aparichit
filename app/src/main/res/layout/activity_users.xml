@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View style="@style/Divider"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Users"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="35sp"
+            android:id="@+id/txtTitle"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:layout_below="@id/txtTitle"
+        android:text="Aarjav Jain"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="NotSibling" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:layout_below="@id/txtName"
+        android:text="aarjavjainkr@gmail.com"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtStatus"
+        android:layout_below="@id/txtEmail"
+        android:text="Rs 1,00,000"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName1"
+                android:layout_below="@id/txtStatus"
+                android:text="Parveen Jain"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail1"
+                android:layout_below="@id/txtName1"
+                android:text="parveenjainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus1"
+                android:layout_below="@id/txtEmail1"
+                android:text="Rs 2,00,000"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus1"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName2"
+                android:layout_below="@id/txtEmail1"
+                android:text="Monika Jain"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail2"
+                android:layout_below="@id/txtName2"
+                android:text="monikajainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus2"
+                android:layout_below="@id/txtEmail2"
+                android:text="Rs 1,00,000"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer3"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus2"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName3"
+                android:layout_below="@id/txtTitle"
+                android:text="Pragya Jain"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail3"
+                android:layout_below="@id/txtName3"
+                android:text="pragyajainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus3"
+                android:layout_below="@id/txtEmail3"
+                android:text="Rs 3,00,000"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer4"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus3"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName4"
+                android:layout_below="@id/txtTitle"
+                android:text="Yashi Jain"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail4"
+                android:layout_below="@id/txtName4"
+                android:text="yashijainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus4"
+                android:layout_below="@id/txtEmail4"
+                android:text="Rs 4,00,000"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer5"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus4"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName6"
+                android:layout_below="@id/txtTitle"
+                android:text="Sambhav Jain"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail6"
+                android:layout_below="@id/txtName6"
+                android:text="sambhavjainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus6"
+                android:layout_below="@id/txtEmail6"
+                android:text="Rs 1,00,000"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer7"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus6"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+            <TextView
+                android:id="@+id/txtName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTitle"
+                android:text="Vidushi Jain"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/txtEmail5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtName5"
+                android:text="vidushijainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtStatus5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEmail5"
+                android:text="Rs 5,00,000"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/Transfer6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="60dp"
+                android:layout_toRightOf="@id/txtStatus5"
+                android:text="Transfer"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName7"
+                android:layout_below="@id/txtTitle"
+                android:text="Naman Jain"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail7"
+                android:layout_below="@id/txtName7"
+                android:text="namanjainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus7"
+                android:layout_below="@id/txtEmail7"
+                android:text="Rs 50,000"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer8"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus7"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="60dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName8"
+                android:layout_below="@id/txtTitle"
+                android:text="Rishabh Jain"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail8"
+                android:layout_below="@id/txtName8"
+                android:text="rishabhjainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus8"
+                android:layout_below="@id/txtEmail8"
+                android:text="Rs 50,000"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer9"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus8"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="60dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName9"
+                android:layout_below="@id/txtTitle"
+                android:text="Harshita Tiwari"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail9"
+                android:layout_below="@id/txtName9"
+                android:text="harshitajainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus9"
+                android:layout_below="@id/txtEmail9"
+                android:text="Rs 1,00,000"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer10"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus9"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/Divider"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName10"
+                android:layout_below="@id/txtTitle"
+                android:text="Pinky Jain"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail10"
+                android:layout_below="@id/txtName10"
+                android:text="pinkyjainkr@gmail.com"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus10"
+                android:layout_below="@id/txtEmail10"
+                android:text="Rs 2,00,000"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transfer"
+                android:id="@+id/Transfer11"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/txtStatus10"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+</LinearLayout>
+</ScrollView>

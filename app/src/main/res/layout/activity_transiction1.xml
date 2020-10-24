@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transiction1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME PARVEEN JAIN"
+        android:textSize="30sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorAccent"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/Title1"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Amount to Pay"
+        android:textSize="25sp"
+        android:id="@+id/Amount1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Title1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Amount1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/T1"
+        android:text="Transfer"/>
+
+
+</RelativeLayout>

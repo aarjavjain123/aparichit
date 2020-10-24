@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transiction9">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME HARSHITA TIWARI"
+        android:textSize="30sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorAccent"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/Title9"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Amount to Pay"
+        android:textSize="25sp"
+        android:id="@+id/Amount9"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Title9"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Amount9"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/T9"
+        android:text="Transfer"/>
+
+</RelativeLayout>
